@@ -9,7 +9,6 @@ def hello_world():
              Hello <input type="text" name="name" value="{}">
              <input type="submit" value="submit">
              </form>
-<p>You look like a:
 <img src="/monster/monster.png"/>
 '''.format(name)
 footer = '</body></html>'
