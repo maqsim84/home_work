@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-   name = Hello Word
+   name = Hello_Word
    header = '<html><head><title>Hello World</title></head><body>'
    body = '''<form method="POST">
              Hello <input type="text" name="name" value="{}">
